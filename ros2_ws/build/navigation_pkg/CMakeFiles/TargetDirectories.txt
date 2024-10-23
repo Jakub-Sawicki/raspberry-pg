@@ -1,0 +1,9 @@
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/uninstall.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/navigation_pkg_uninstall.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/test.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/edit_cache.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/rebuild_cache.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/list_install_components.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/install.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/install/local.dir
+/raspberry-pg/ros2_ws/build/navigation_pkg/CMakeFiles/install/strip.dir
