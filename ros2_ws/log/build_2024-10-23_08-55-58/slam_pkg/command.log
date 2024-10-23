@@ -1,0 +1,6 @@
+Invoking command in '/raspberry-pg/ros2_ws/build/slam_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /raspberry-pg/ros2_ws/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/raspberry-pg/ros2_ws/install/slam_pkg
+Invoked command in '/raspberry-pg/ros2_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /raspberry-pg/ros2_ws/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/raspberry-pg/ros2_ws/install/slam_pkg
+Invoking command in '/raspberry-pg/ros2_ws/build/slam_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /raspberry-pg/ros2_ws/build/slam_pkg -- -j8 -l8
+Invoked command in '/raspberry-pg/ros2_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /raspberry-pg/ros2_ws/build/slam_pkg -- -j8 -l8
+Invoking command in '/raspberry-pg/ros2_ws/build/slam_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /raspberry-pg/ros2_ws/build/slam_pkg
+Invoked command in '/raspberry-pg/ros2_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /raspberry-pg/ros2_ws/build/slam_pkg
