@@ -1,0 +1,5 @@
+[0.015s] Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12
+[0.033s] [0mCMake Error: The source directory "/ros2_ws/src/uart_publisher" does not appear to contain CMakeLists.txt.
+[0.033s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.035s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.037s] Invoked command in '/ros2_ws/build/uart_publisher' returned '2': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12

@@ -1,0 +1,22 @@
+[0.014s] Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12
+[0.072s] [100%] Built target uart_publisher
+[0.084s] Invoked command in '/ros2_ws/build/uart_publisher' returned '0': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12
+[0.096s] Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake --install /ros2_ws/build/uart_publisher
+[0.109s] -- Install configuration: ""
+[0.109s] -- Up-to-date: /ros2_ws/install/uart_publisher/lib/uart_publisher/uart_publisher
+[0.109s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/ament_index/resource_index/package_run_dependencies/uart_publisher
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/ament_index/resource_index/parent_prefix_path/uart_publisher
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/ament_prefix_path.dsv
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/path.sh
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/path.dsv
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.bash
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.sh
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.zsh
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.dsv
+[0.110s] -- Installing: /ros2_ws/install/uart_publisher/share/uart_publisher/package.dsv
+[0.110s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/ament_index/resource_index/packages/uart_publisher
+[0.111s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/cmake/uart_publisherConfig.cmake
+[0.111s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/cmake/uart_publisherConfig-version.cmake
+[0.111s] -- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/package.xml
+[0.135s] Invoked command in '/ros2_ws/build/uart_publisher' returned '0': /usr/bin/cmake --install /ros2_ws/build/uart_publisher

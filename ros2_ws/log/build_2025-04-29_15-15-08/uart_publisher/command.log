@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake /ros2_ws/src/uart_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/uart_publisher
+Invoked command in '/ros2_ws/build/uart_publisher' returned '0': /usr/bin/cmake /ros2_ws/src/uart_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/uart_publisher
+Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12
+Invoked command in '/ros2_ws/build/uart_publisher' returned '0': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12
+Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake --install /ros2_ws/build/uart_publisher
+Invoked command in '/ros2_ws/build/uart_publisher' returned '0': /usr/bin/cmake --install /ros2_ws/build/uart_publisher

@@ -1,0 +1,2 @@
+Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12
+Invoked command in '/ros2_ws/build/uart_publisher' returned '2': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12

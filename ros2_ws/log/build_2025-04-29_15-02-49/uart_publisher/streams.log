@@ -1,0 +1,32 @@
+[0.014s] Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake /ros2_ws/src/uart_publisher -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/uart_publisher
+[0.036s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.037s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.037s]   contain a literal, direct call to the project() command.  Add a line of
+[0.037s]   code such as
+[0.037s] 
+[0.037s]     project(ProjectName)
+[0.037s] 
+[0.037s]   near the top of the file, but after cmake_minimum_required().
+[0.037s] 
+[0.037s]   CMake is pretending there is a "project(Project)" command on the first
+[0.037s]   line.
+[0.037s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.038s] [0m
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.247s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.447s] -- Detecting CXX compiler ABI info - done
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.457s] -- Detecting CXX compile features
+[0.457s] -- Detecting CXX compile features - done
+[0.458s] -- Configuring done
+[0.459s] -- Generating done
+[0.461s] -- Build files have been written to: /ros2_ws/build/uart_publisher
+[0.465s] Invoked command in '/ros2_ws/build/uart_publisher' returned '0': /usr/bin/cmake /ros2_ws/src/uart_publisher -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/uart_publisher
+[0.468s] Invoking command in '/ros2_ws/build/uart_publisher': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12
+[0.511s] Invoked command in '/ros2_ws/build/uart_publisher' returned '0': /usr/bin/cmake --build /ros2_ws/build/uart_publisher -- -j12 -l12

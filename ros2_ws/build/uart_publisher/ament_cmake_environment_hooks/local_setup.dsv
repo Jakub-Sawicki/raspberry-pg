@@ -1,0 +1,2 @@
+source;share/uart_publisher/environment/ament_prefix_path.sh
+source;share/uart_publisher/environment/path.sh
