@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[launch]
+full_slam_launch = launch.full_slam_launch
+

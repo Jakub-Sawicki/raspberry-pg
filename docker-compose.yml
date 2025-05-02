@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   ros2_dev:
     build: .
@@ -10,8 +8,14 @@ services:
       - /dev/ttyUSB0:/dev/ttyUSB0
     volumes:
       - .:/ros2_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${HOME}/.Xauthority:/root/.Xauthority:rw 
     environment:
       - DISPLAY=${DISPLAY}
+      - MESA_GL_VERSION_OVERRIDE=3.3
       - ROS_DOMAIN_ID=0
+      - QT_X11_NO_MITSHM=1
+      - LIBGL_ALWAYS_INDIRECT=0
     tty: true
     stdin_open: true
+

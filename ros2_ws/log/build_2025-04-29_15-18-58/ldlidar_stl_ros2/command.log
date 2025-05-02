@@ -1,1 +1,0 @@
-Invoking command in '/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /ros2_ws/build/ldlidar_stl_ros2 -- -j12 -l12

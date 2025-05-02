@@ -1,8 +1,8 @@
-# Install script for directory: /ros2_ws/src/ldlidar_stl_ros2
+# Install script for directory: /ros2_ws/ros2_ws/src/ldlidar_stl_ros2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/ros2_ws/install/ldlidar_stl_ros2")
+  set(CMAKE_INSTALL_PREFIX "/ros2_ws/ros2_ws/install/ldlidar_stl_ros2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ldlidar_stl_ros2" TYPE EXECUTABLE FILES "/ros2_ws/build/ldlidar_stl_ros2/ldlidar_stl_ros2_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ldlidar_stl_ros2" TYPE EXECUTABLE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ldlidar_stl_ros2_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node")
     file(RPATH_CHANGE
@@ -64,17 +64,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2/" TYPE DIRECTORY FILES
-    "/ros2_ws/src/ldlidar_stl_ros2/launch"
-    "/ros2_ws/src/ldlidar_stl_ros2/rviz2"
+    "/ros2_ws/ros2_ws/src/ldlidar_stl_ros2/launch"
+    "/ros2_ws/ros2_ws/src/ldlidar_stl_ros2/rviz2"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -82,7 +82,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2/environment" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2/environment" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -90,42 +90,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2/environment" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2/environment" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_index/share/ament_index/resource_index/packages/ldlidar_stl_ros2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_index/share/ament_index/resource_index/packages/ldlidar_stl_ros2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2/cmake" TYPE FILE FILES
-    "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_core/ldlidar_stl_ros2Config.cmake"
-    "/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_core/ldlidar_stl_ros2Config-version.cmake"
+    "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_core/ldlidar_stl_ros2Config.cmake"
+    "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/ament_cmake_core/ldlidar_stl_ros2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/src/ldlidar_stl_ros2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ldlidar_stl_ros2" TYPE FILE FILES "/ros2_ws/ros2_ws/src/ldlidar_stl_ros2/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -136,5 +136,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/ros2_ws/build/ldlidar_stl_ros2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/ros2_ws/ros2_ws/build/ldlidar_stl_ros2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

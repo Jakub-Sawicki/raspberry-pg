@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000673] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.001017] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.001289] (uart_publisher) JobQueued: {'identifier': 'uart_publisher', 'dependencies': OrderedDict()}
+[0.001305] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.007325] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.015115] (uart_publisher) JobStarted: {'identifier': 'uart_publisher'}
+[0.020484] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[0.021715] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'build'}
+[0.022620] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/ldlidar_stl_ros2', '--', '-j12', '-l12'], 'cwd': '/ros2_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('HOSTNAME', 'kamil-laptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-dde65a69-db13-4f9e-8b3d-0899ad72b436.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', ''), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/my_robot:/ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ros2_ws/build/ldlidar_stl_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/ldlidar_stl_ros2:/ros2_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[0.100625] (-) TimerEvent: {}
+[0.201951] (-) TimerEvent: {}
+[0.253342] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_stl_ros2_node\n'}
+[0.254182] (uart_publisher) JobProgress: {'identifier': 'uart_publisher', 'progress': 'cmake'}
+[0.254812] (uart_publisher) JobProgress: {'identifier': 'uart_publisher', 'progress': 'build'}
+[0.254983] (uart_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/uart_publisher', '--', '-j12', '-l12'], 'cwd': '/ros2_ws/build/uart_publisher', 'env': OrderedDict([('HOSTNAME', 'kamil-laptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-dde65a69-db13-4f9e-8b3d-0899ad72b436.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', ''), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/my_robot:/ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ros2_ws/build/uart_publisher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/ldlidar_stl_ros2:/ros2_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[0.256943] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[0.257191] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'install'}
+[0.266767] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/ldlidar_stl_ros2'], 'cwd': '/ros2_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('HOSTNAME', 'kamil-laptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-dde65a69-db13-4f9e-8b3d-0899ad72b436.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', ''), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/my_robot:/ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ros2_ws/build/ldlidar_stl_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/ldlidar_stl_ros2:/ros2_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[0.281931] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.283355] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node\n'}
+[0.283769] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch\n'}
+[0.283873] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py\n'}
+[0.283924] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py\n'}
+[0.283966] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py\n'}
+[0.284001] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py\n'}
+[0.284047] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py\n'}
+[0.284092] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py\n'}
+[0.284134] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2\n'}
+[0.284182] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz\n'}
+[0.286673] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2\n'}
+[0.286896] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2\n'}
+[0.286965] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh\n'}
+[0.287033] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv\n'}
+[0.287085] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh\n'}
+[0.287136] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv\n'}
+[0.287186] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash\n'}
+[0.287234] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh\n'}
+[0.287284] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh\n'}
+[0.287332] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv\n'}
+[0.287383] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv\n'}
+[0.291968] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2\n'}
+[0.292192] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake\n'}
+[0.292264] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake\n'}
+[0.292314] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml\n'}
+[0.292365] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[0.302249] (-) TimerEvent: {}
+[0.319016] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 0}
+[0.332561] (uart_publisher) StdoutLine: {'line': b'[100%] Built target uart_publisher\n'}
+[0.346462] (uart_publisher) CommandEnded: {'returncode': 0}
+[0.348061] (uart_publisher) JobProgress: {'identifier': 'uart_publisher', 'progress': 'install'}
+[0.349915] (uart_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/uart_publisher'], 'cwd': '/ros2_ws/build/uart_publisher', 'env': OrderedDict([('HOSTNAME', 'kamil-laptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-dde65a69-db13-4f9e-8b3d-0899ad72b436.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', ''), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/my_robot:/ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/ros2_ws/build/uart_publisher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/uart_publisher:/ros2_ws/install/ldlidar_stl_ros2:/ros2_ws/install/my_robot:/opt/ros/humble')]), 'shell': False}
+[0.357214] (uart_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.358106] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/lib/uart_publisher/uart_publisher\n'}
+[0.358312] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/ament_index/resource_index/package_run_dependencies/uart_publisher\n'}
+[0.358377] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/ament_index/resource_index/parent_prefix_path/uart_publisher\n'}
+[0.358450] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/ament_prefix_path.sh\n'}
+[0.358544] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/ament_prefix_path.dsv\n'}
+[0.358693] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/path.sh\n'}
+[0.358738] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/environment/path.dsv\n'}
+[0.358783] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.bash\n'}
+[0.358827] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.sh\n'}
+[0.358867] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.zsh\n'}
+[0.358910] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.dsv\n'}
+[0.358952] (uart_publisher) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/uart_publisher/share/uart_publisher/package.dsv\n'}
+[0.359030] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/ament_index/resource_index/packages/uart_publisher\n'}
+[0.359105] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/cmake/uart_publisherConfig.cmake\n'}
+[0.359155] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/cmake/uart_publisherConfig-version.cmake\n'}
+[0.359195] (uart_publisher) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/uart_publisher/share/uart_publisher/package.xml\n'}
+[0.361211] (uart_publisher) CommandEnded: {'returncode': 0}
+[0.378887] (uart_publisher) JobEnded: {'identifier': 'uart_publisher', 'rc': 0}
+[0.402369] (-) TimerEvent: {}
+[0.502755] (-) TimerEvent: {}
+[0.603232] (-) TimerEvent: {}
+[0.653209] (my_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_robot', 'build', '--build-base', '/ros2_ws/build/my_robot/build', 'install', '--record', '/ros2_ws/build/my_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/ros2_ws/src/my_robot', 'env': {'HOSTNAME': 'kamil-laptop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-dde65a69-db13-4f9e-8b3d-0899ad72b436.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': '', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/ros2_ws/install/uart_publisher:/ros2_ws/install/my_robot:/ros2_ws/install/ldlidar_stl_ros2:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/ros2_ws/build/my_robot', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/my_robot/lib/python3.10/site-packages:/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros2_ws/install/uart_publisher:/ros2_ws/install/ldlidar_stl_ros2'}, 'shell': False}
+[0.703453] (-) TimerEvent: {}
+[0.803923] (-) TimerEvent: {}
+[0.822772] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[0.823286] (my_robot) StdoutLine: {'line': b'writing ../../../build/my_robot/my_robot.egg-info/PKG-INFO\n'}
+[0.823565] (my_robot) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_robot/my_robot.egg-info/dependency_links.txt\n'}
+[0.823688] (my_robot) StdoutLine: {'line': b'writing entry points to ../../../build/my_robot/my_robot.egg-info/entry_points.txt\n'}
+[0.823835] (my_robot) StdoutLine: {'line': b'writing requirements to ../../../build/my_robot/my_robot.egg-info/requires.txt\n'}
+[0.823955] (my_robot) StdoutLine: {'line': b'writing top-level names to ../../../build/my_robot/my_robot.egg-info/top_level.txt\n'}
+[0.825970] (my_robot) StdoutLine: {'line': b"reading manifest file '../../../build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[0.827097] (my_robot) StdoutLine: {'line': b"writing manifest file '../../../build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[0.827518] (my_robot) StdoutLine: {'line': b'running build\n'}
+[0.827663] (my_robot) StdoutLine: {'line': b'running build_py\n'}
+[0.827895] (my_robot) StdoutLine: {'line': b'running install\n'}
+[0.828546] (my_robot) StdoutLine: {'line': b'running install_lib\n'}
+[0.830608] (my_robot) StdoutLine: {'line': b'running install_data\n'}
+[0.830869] (my_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.833048] (my_robot) StdoutLine: {'line': b"removing '/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.833412] (my_robot) StdoutLine: {'line': b'Copying ../../../build/my_robot/my_robot.egg-info to /ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info\n'}
+[0.834629] (my_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[0.867507] (my_robot) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/my_robot/install.log'\n"}
+[0.904094] (-) TimerEvent: {}
+[0.925039] (my_robot) CommandEnded: {'returncode': 0}
+[0.932414] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[0.933164] (-) EventReactorShutdown: {}

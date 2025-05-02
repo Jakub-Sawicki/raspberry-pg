@@ -1,0 +1,61 @@
+[0.137s] Invoking command in '/ros2_ws/ros2_ws/build/uart_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake /ros2_ws/ros2_ws/src/uart_publisher -DCMAKE_INSTALL_PREFIX=/ros2_ws/ros2_ws/install/uart_publisher
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.288s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.450s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.517s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.556s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.560s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.565s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.616s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.618s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.706s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.744s] -- Looking for pthread.h
+[0.799s] -- Looking for pthread.h - found
+[0.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.857s] -- Found Threads: TRUE  
+[0.889s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.948s] -- Configuring done
+[0.960s] -- Generating done
+[0.963s] -- Build files have been written to: /ros2_ws/ros2_ws/build/uart_publisher
+[0.971s] Invoked command in '/ros2_ws/ros2_ws/build/uart_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake /ros2_ws/ros2_ws/src/uart_publisher -DCMAKE_INSTALL_PREFIX=/ros2_ws/ros2_ws/install/uart_publisher
+[0.972s] Invoking command in '/ros2_ws/ros2_ws/build/uart_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/ros2_ws/build/uart_publisher -- -j12 -l12
+[1.022s] [ 50%] [32mBuilding CXX object CMakeFiles/uart_publisher.dir/src/uart_publisher.cpp.o[0m
+[5.970s] [100%] [32m[1mLinking CXX executable uart_publisher[0m
+[6.202s] [100%] Built target uart_publisher
+[6.210s] Invoked command in '/ros2_ws/ros2_ws/build/uart_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/ros2_ws/build/uart_publisher -- -j12 -l12
+[6.211s] Invoking command in '/ros2_ws/ros2_ws/build/uart_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/ros2_ws/build/uart_publisher
+[6.217s] -- Install configuration: ""
+[6.217s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/lib/uart_publisher/uart_publisher
+[6.219s] -- Set runtime path of "/ros2_ws/ros2_ws/install/uart_publisher/lib/uart_publisher/uart_publisher" to ""
+[6.219s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/ament_index/resource_index/package_run_dependencies/uart_publisher
+[6.219s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/ament_index/resource_index/parent_prefix_path/uart_publisher
+[6.219s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/environment/ament_prefix_path.sh
+[6.219s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/environment/ament_prefix_path.dsv
+[6.219s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/environment/path.sh
+[6.219s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/environment/path.dsv
+[6.219s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.bash
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.sh
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.zsh
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/local_setup.dsv
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/package.dsv
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/ament_index/resource_index/packages/uart_publisher
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/cmake/uart_publisherConfig.cmake
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/cmake/uart_publisherConfig-version.cmake
+[6.220s] -- Installing: /ros2_ws/ros2_ws/install/uart_publisher/share/uart_publisher/package.xml
+[6.221s] Invoked command in '/ros2_ws/ros2_ws/build/uart_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/ros2_ws/build/uart_publisher

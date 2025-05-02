@@ -16,7 +16,19 @@ RUN apt-get update && apt-get install -y \
     ros-humble-rviz2 \
     ros-humble-xacro \
     build-essential \
+    libxcb-xinerama0 \
+    libgl1-mesa-glx \
+    libgl1-mesa-dri \
+    libqt5gui5 \
+    mesa-utils \
+    dbus-x11 \ 
+    x11-utils \
+    x11-apps \
     && rm -rf /var/lib/apt/lists/*
+
+
+ENV QT_X11_NO_MITSHM=1
+ENV LIBGL_ALWAYS_INDIRECT=1
 
 # Tworzenie workspace
 RUN mkdir -p /ros2_ws/src

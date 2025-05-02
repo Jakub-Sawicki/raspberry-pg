@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /ros2_ws/src/uart_publisher
+CMAKE_SOURCE_DIR = /ros2_ws/ros2_ws/src/uart_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /ros2_ws/build/uart_publisher
+CMAKE_BINARY_DIR = /ros2_ws/ros2_ws/build/uart_publisher
 
 # Utility rule file for uart_publisher_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uart_publisher_uninstall.dir/compiler_depend.make
 include CMakeFiles/uart_publisher_uninstall.dir/progress.make
 
 CMakeFiles/uart_publisher_uninstall:
-	/usr/bin/cmake -P /ros2_ws/build/uart_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /ros2_ws/ros2_ws/build/uart_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 uart_publisher_uninstall: CMakeFiles/uart_publisher_uninstall
 uart_publisher_uninstall: CMakeFiles/uart_publisher_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uart_publisher_uninstall.dir/clean:
 .PHONY : CMakeFiles/uart_publisher_uninstall.dir/clean
 
 CMakeFiles/uart_publisher_uninstall.dir/depend:
-	cd /ros2_ws/build/uart_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ros2_ws/src/uart_publisher /ros2_ws/src/uart_publisher /ros2_ws/build/uart_publisher /ros2_ws/build/uart_publisher /ros2_ws/build/uart_publisher/CMakeFiles/uart_publisher_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ros2_ws/ros2_ws/build/uart_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ros2_ws/ros2_ws/src/uart_publisher /ros2_ws/ros2_ws/src/uart_publisher /ros2_ws/ros2_ws/build/uart_publisher /ros2_ws/ros2_ws/build/uart_publisher /ros2_ws/ros2_ws/build/uart_publisher/CMakeFiles/uart_publisher_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uart_publisher_uninstall.dir/depend
 
