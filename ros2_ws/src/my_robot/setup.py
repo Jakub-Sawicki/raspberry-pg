@@ -10,7 +10,7 @@ setup(
     packages=[package_name],
     data_files=[
         (f'share/{package_name}/launch', glob('launch/*.py')),
-        (f'share/{package_name}/config', glob('config/*.yaml')),  # <-- TO DODAJ
+        (f'share/{package_name}/config', glob('config/*.yaml')), 
         (f'share/{package_name}', ['package.xml']),
     ],
     install_requires=['setuptools'],

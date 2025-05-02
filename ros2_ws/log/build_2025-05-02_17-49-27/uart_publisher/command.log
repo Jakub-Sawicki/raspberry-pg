@@ -1,0 +1,4 @@
+Invoking command in '/ros2_ws/ros2_ws/build/uart_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/ros2_ws/build/uart_publisher -- -j12 -l12
+Invoked command in '/ros2_ws/ros2_ws/build/uart_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/ros2_ws/build/uart_publisher -- -j12 -l12
+Invoking command in '/ros2_ws/ros2_ws/build/uart_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/ros2_ws/build/uart_publisher
+Invoked command in '/ros2_ws/ros2_ws/build/uart_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/ros2_ws/build/uart_publisher

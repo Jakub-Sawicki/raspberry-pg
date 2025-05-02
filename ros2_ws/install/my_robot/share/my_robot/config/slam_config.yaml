@@ -1,50 +1,23 @@
 slam_toolbox:
   ros__parameters:
-    # Podstawowe parametry
-    mode: mapping
-    map_frame: map
-    base_frame: base_link
-    odom_frame: odom
-    scan_topic: /scan
     use_sim_time: false
-
-    publish_pose_to_tf: true
-    publish_tf: true
-
-    # Parametry do rozwiązania problemu przepełnionej kolejki
-    transform_timeout: 2.0
-    tf_buffer_duration: 30.0  # Zwiększenie bufora transformacji
-    throttle_scans: 2  # Przetwarzaj co drugi skan dla zmniejszenia obciążenia
-    max_laser_range: 12.0
-    minimum_time_interval: 0.2  # Minimalny czas między aktualizacjami
-    
-    # Zwiększenie kolejki i zasobów
-    scan_buffer_size: 60  # Zwiększona wielkość bufora skanów
-    stack_size_to_use: 60000000  # Zwiększony stos pamięci
-    map_update_interval: 15.0  # Rzadsze aktualizacje mapy
-    enable_interactive_mode: false  # Wyłączenie trybu interaktywnego, który może konsumować zasoby
-    
-    # Parametry optymalizacji
-    minimum_travel_distance: 0.2  # Dystans, jaki robot musi przebyć przed dodaniem nowego skanu
-    minimum_travel_heading: 0.2  # Zmiana orientacji robota przed dodaniem nowego skanu
-    resolution: 0.05
-    
-    # Parametry szczegółowe skanowania
+    mode: "mapping"
+    always_reset_initial_pose: true
     use_scan_matching: true
     use_scan_barycenter: true
-    max_update_rate: 1.0  # Maksymalna częstotliwość aktualizacji
+    map_update_interval: 1.0
 
-    # Parametry solver'a Ceres (może pomóc w optymalizacji)
-    ceres_solver_type: SPARSE_NORMAL_CHOLESKY
-    ceres_linear_solver_type: SPARSE_SCHUR
-    ceres_preconditioner_type: SCHUR_JACOBI
-    ceres_trust_strategy: LEVENBERG_MARQUARDT
-    ceres_dogleg_type: TRADITIONAL_DOGLEG
-    ceres_loss_function: HuberLoss
+    # WYŁĄCZ użycie odometrii:
+    odom_frame: "base_link"
+    map_frame: "map"
+    base_frame: "base_link"
+    publish_tf_map: true
 
-    # Parametry dopasowania skanów
-    coarse_angle_resolution: 0.05  # Rozdzielczość kątowa w zgrubnym wyszukiwaniu
-    fine_search_angle_offset: 0.005  # Przesunięcie kątowe w dokładnym wyszukiwaniu
-    distance_variance_penalty: 0.85  # Kara za wariancję odległości
-    angle_variance_penalty: 0.85  # Kara za wariancję kąta
-    fine_correlation_window_size: 0.1  # Rozmiar okna korelacji w dokładnym wyszukiwaniu
+    # Nie próbuj słuchać odometrii:
+    use_odometry: false
+    use_pose_topic: false
+    use_scan_matching: true
+
+    resolution: 0.05
+    map_publish_period: 1.0
+    map_update_interval: 1.0

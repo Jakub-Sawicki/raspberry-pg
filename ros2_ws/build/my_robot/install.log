@@ -1,7 +1,9 @@
 /ros2_ws/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py
 /ros2_ws/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__pycache__/__init__.cpython-310.pyc
 /ros2_ws/ros2_ws/install/my_robot/share/my_robot/launch/full_slam_launch.py
+/ros2_ws/ros2_ws/install/my_robot/share/my_robot/config/controller_server.yaml
 /ros2_ws/ros2_ws/install/my_robot/share/my_robot/config/slam_config.yaml
+/ros2_ws/ros2_ws/install/my_robot/share/my_robot/config/nav2_params.yaml
 /ros2_ws/ros2_ws/install/my_robot/share/my_robot/package.xml
 /ros2_ws/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info/zip-safe
 /ros2_ws/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info/entry_points.txt
