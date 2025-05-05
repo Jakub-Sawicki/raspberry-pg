@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
     ros-humble-nav2-bringup \
     ros-humble-slam-toolbox \
     ros-humble-turtlebot3* \
+    libspdlog-dev \
+    libc6-dev \
     ros-humble-rviz2 \
     ros-humble-xacro \
     build-essential \
